@@ -81,7 +81,7 @@ const Skills = ({ darkMode }) => {
                 white={"white"}
                 skill={"Express Js"}
               />
-              <SkillBox
+              {/* <SkillBox
                 className=""
                 logo={
                   <GrCode/>
@@ -89,8 +89,8 @@ const Skills = ({ darkMode }) => {
                 black={"black"}
                 white={"white"}
                 skill={"C++"}
-              />
-              {/* <SkillBox
+              /> */}
+              <SkillBox
                 className=""
                 logo={
                   <SiNextdotjs className=" text-white bg-black rounded-full h-fit border-white overflow-hidden" />
@@ -98,7 +98,7 @@ const Skills = ({ darkMode }) => {
                 black={"black"}
                 white={"white"}
                 skill={"Next Js"}
-              /> */}
+              />
             </div>
           </div>
         </div>

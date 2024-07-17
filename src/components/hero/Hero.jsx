@@ -1,4 +1,5 @@
 import React from "react";
+import image from "../../assets/photo.png";
 import {
   AiFillTwitterCircle,
   AiFillGithub,
@@ -21,14 +22,14 @@ const Hero = () => {
               data-aos="fade-up"
               className=" text-5xl font-bold sm:text-[2rem]"
             >
-              Hello, I'm John  Doe
+              Hello, I'm Avadh Raiyani
             </h2>
             <TypeAnimation
               data-aos="fade-up"
               sequence={[
                 "Web Developer",
                 2000,
-                "Freelancer",
+                "MERN Stack Devloper",
                 2000,
                 "",
               ]}
@@ -37,16 +38,16 @@ const Hero = () => {
               repeat={Infinity}
               className="text-yellow-500 text-4xl font-bold sm:text-3xl"
             />
-            <p
+            {/* <p
               // data-aos="fade-up"
               className=" text-[1.1rem] font-medium w-3/4 md:w-full text-gray-600 sm:text-[.95rem]"
             >
               Lorem ipsum dolor sit amet consectetur
-            </p>
+            </p> */}
           </div>
           <div data-aos="fade-up" className="buttons flex gap-5">
             <a
-              href=""
+              href="https://github.com/avadh050"
               className=" bg-black text-[1rem] text-white px-10 py-2 sm:px-8 rounded-lg font-bold  hover:text-yellow-500"
             >
               <span> Hire Me</span>
@@ -68,31 +69,31 @@ const Hero = () => {
               className=" flex gap-5"
             >
               <li>
-                <a href="">
+                <a href="https://github.com/avadh050">
                   {" "}
                   <AiFillGithub className=" h-[1.8rem] w-[1.8rem] text-xl hover:scale-125" />{" "}
                 </a>
               </li>
               <li>
-                <a href="">
+                <a href="https://www.linkedin.com/in/avadh-raiyani-57373727a/">
                   {" "}
                   <FaLinkedinIn className=" h-[1.8rem] w-[1.8rem] text-xl hover:scale-125 " />{" "}
                 </a>
               </li>
               <li>
-                <a href="">
+                <a href="https://www.instagram.com/avadh_raiyani_/">
                   {" "}
                   <AiFillInstagram className=" h-[1.8rem] w-[1.8rem] text-xl hover:scale-125  " />{" "}
                 </a>
               </li>
               <li>
-                <a href="">
+                <a href="https://www.facebook.com/avadh.raiyani.3/">
                   {" "}
                   <FaFacebook className=" h-[1.8rem] w-[1.8rem] text-xl hover:scale-125  " />{" "}
                 </a>
               </li>
               <li>
-                <a href="">
+                <a href="https://x.com/RaiyaniAvadh?t=LUNm4A4FeaZYLaYwzfK7EA&s=09">
                   {" "}
                   <AiFillTwitterCircle className=" h-[1.8rem] w-[1.8rem] text-xl hover:scale-125  " />{" "}
                 </a>
@@ -105,8 +106,8 @@ const Hero = () => {
             <img
             data-aos="fade-up"
               className=" h-[90%]  w-full object-cover md:h-[95%] md:m-auto sm:m-0"
-              src='https://i.postimg.cc/pTn61Gr1/Untitled-design222-modified.png'
-              // src={mine}
+              // src='https://i.postimg.cc/pTn61Gr1/Untitled-design222-modified.png'
+              src={image}
               alt="mine"
             />
             <div className=" absolute bottom-10 md:bottom-3 right-8 md:right-2">

@@ -35,21 +35,21 @@ const Resume = () => {
               {/* design */}
               <div className=" flex flex-col gap-1 sm:gap-1 border-2 border-yellow-400 shadow-[0px_0px_16px_1px_rgba(0,0,0,0.1)] p-3 rounded-lg">
                 <h1 className="text-[1.4rem] font-semibold sm:text-xl">
-                  Software Developer
+                  Intern Web Developer
                 </h1>
                 <span className=" text-[.9rem] font-semibold text-gray-500 sm:text-base">
-                  Company Name
+                  N R Crew
                 </span>
                 <span className=" text-[.9rem] font-semibold text-yellow-500 sm:text-base">
-                  June 2023 - Present
+                  Desember 2023 - june 2024
                 </span>
                 <p className=" text-[.9rem] text-justify break-words text-gray-500">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Excepturi nihil aut quae obcaecati alias placeat totam aperiam
-                  pariatur quam? Accusantium minima aperiam error obcaecati
-                  autem doloribus deserunt qui, laborum incidunt amet, numquam
-                  eos cum tempora. Debitis, esse quae corporis deserunt officia
-                  quos in a, quaerat vero odio vitae.
+                  Developed and maintained various web applications, enhancing
+                  user experience and functionality. Improved website
+                  performance and load times through optimization techniques.
+                  Assisted in debugging and troubleshooting issues, ensuring
+                  seamless user interactions. Gained hands-on experience with
+                  HTML, CSS, JavaScript, and modern web development frameworks.
                 </p>
               </div>
             </div>
@@ -73,21 +73,26 @@ const Resume = () => {
               {/* design */}
               <div className=" flex flex-col gap-1 border-2 border-yellow-400 shadow-[0px_0px_16px_1px_rgba(0,0,0,0.1)] p-3 rounded-lg">
                 <h1 className="text-[1.4rem] font-semibold sm:text-xl">
-                  B.Tech, Computer Science
+                  B.Tech, I T
                 </h1>
                 <span className=" text-[.9rem] font-semibold text-gray-500 sm:text-base">
-                  College Name
+                  Silver Oak University
                 </span>
                 <span className=" text-[.9rem] font-semibold text-yellow-500 sm:text-base">
-                  Year 2023 - Year 2027
+                  Year 2021 - Year 2025
                 </span>
                 <p className=" text-[.9rem] text-justify text-gray-500">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Excepturi nihil aut quae obcaecati alias placeat totam aperiam
-                  pariatur quam? Accusantium minima aperiam error obcaecati
-                  autem doloribus deserunt qui, laborum incidunt amet, numquam
-                  eos cum tempora. Debitis, esse quae corporis deserunt officia
-                  quos in a, quaerat vero odio vitae.
+                  Studying B.Tech in Information Technology at Silver Oak
+                  University. Pursuing a career in web development and Full
+                  Stack Devloper.
+                </p>
+                <span className=" text-[.9rem] font-semibold text-yellow-500 sm:text-base">
+                  Extracurricular Activities:{" "}
+                </span>
+                <p className=" text-[.9rem] text-justify text-gray-500">
+                  Member of the Coding Club, participating in coding
+                  competitions and hackathons. Volunteered in organizing tech
+                  events and workshops at the university.
                 </p>
               </div>
             </div>

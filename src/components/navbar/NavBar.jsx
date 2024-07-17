@@ -52,7 +52,7 @@ const NavBar = ({ toggleDarkMode, darkMode }) => {
   return (
     <div
       className={`w-full mx-auto  fixed top-0 py-5 sm:py-4 z-30 ${
-        scrollPosition > 0 ? `bg-white shadow-md` : "bg-transparent"
+        scrollPosition > 0 ? `bg-white shadow-md  bg-opacity-80` : "bg-transparent"
       } `}
     >
       <nav className=" container m-auto flex items-center justify-between">
@@ -62,7 +62,7 @@ const NavBar = ({ toggleDarkMode, darkMode }) => {
             to="/"
             className="text-3xl font-bold sm:text-3xl"
           >
-            John Doe.
+            Avadh Raiyani.
           </Link>
         </div>
         <div
@@ -106,7 +106,7 @@ const NavBar = ({ toggleDarkMode, darkMode }) => {
               </li>
             ))}
             <a
-              href=""
+              href="https://www.linkedin.com/in/avadh-raiyani-57373727a/"
               className="bg-black text-[1rem] text-white px-8 py-2 rounded-lg font-bold hover:text-yellow-400 md:m-5 md:block md:mx-auto md:w-fit lg:px-3"
             >
               HIRE ME
